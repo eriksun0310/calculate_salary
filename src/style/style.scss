@@ -1,0 +1,137 @@
+@use './color';
+
+.body{
+    background-color: #e4e4e4;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: color.$main-color;
+}
+
+.basicStyle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  >div{
+    margin: 0px 5px;
+    .inputTitle {
+        position: relative;
+        top: 10px;
+        z-index: 1;
+        left: -4px;
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+        color: color.$main-color;
+      }
+  }
+}
+.basicBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dateInput{
+    display: flex;
+    justify-content: center;
+    >div{
+        margin: 3px 1px;
+        padding: 6px 0px;
+        //指定第三個div、第四個div
+        &:nth-child(3){
+            position: relative;
+            top: -21px;
+        }
+        &:nth-child(4){
+            position: relative;
+            top: -21px;
+        }
+    }
+    .inputTitle{
+        position: relative;
+        top: 10px;
+        z-index: 1;
+        left: -5px;
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+        color: rgb(11, 126, 195);
+    }
+}
+
+.bi-trash{
+    color: red;
+    padding-top: 3px;
+    font-size: 22px;
+}
+
+.bi-plus-circle{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    margin-top: 11px;
+    color: color.$main-color;
+}
+
+.totalSalary{
+    width: 300px;
+    height: 220px;
+    background: #FFE8BB;
+    // border: 1px solid;
+   >table{
+        // border: 1px solid black;
+        width: 300px;
+        >tr{
+            // border-bottom: 1px solid;
+            >td{
+                // border-right: 1px solid;
+            }
+        }
+   }
+}
+
+.submitBtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hg-theme-default{
+    width: 19% !important;
+    background-color: color.$main-color !important;
+}
+
+.remove{
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+
+
+@keyframes scaleUp {
+    from {
+       transform: scale(0);
+    }
+    to {
+       transform: scale(1);
+    }
+  }
+
+@keyframes scaleDown{ 
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+
+.removeAnimation{
+    animation: scaleDown 0.5s ease forwards;
+}
+
+.addAnimation {
+    animation: scaleUp 0.5s ease forwards;
+}

@@ -1,0 +1,26 @@
+@use './color';
+
+.ant-input {
+    border: 1px solid #dfe3e7;
+}
+.ant-divider-horizontal{
+    margin: 18px 0px;
+}
+.ant-divider-inner-text{
+    color:color.$main-color
+}
+
+.ant-divider-plain.ant-divider-with-text{
+    margin: 17px 0px -20px 0px;
+}
+
+.ant-btn{
+    border: 1px solid color.$main-color;
+    color: white;
+    background-color: color.$main-color;
+    &:hover{
+        opacity: 0.8;
+        // background-color: white;
+        // cursor: pointer;
+    }
+}

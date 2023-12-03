@@ -1,0 +1,24 @@
+.ant-input {
+  border: 1px solid #dfe3e7;
+}
+
+.ant-divider-horizontal {
+  margin: 18px 0px;
+}
+
+.ant-divider-inner-text {
+  color: rgb(11, 126, 195);
+}
+
+.ant-divider-plain.ant-divider-with-text {
+  margin: 17px 0px -20px 0px;
+}
+
+.ant-btn {
+  border: 1px solid rgb(11, 126, 195);
+  color: white;
+  background-color: rgb(11, 126, 195);
+}
+.ant-btn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=antdRewrite.css.map */
