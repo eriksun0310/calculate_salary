@@ -1,5 +1,6 @@
 ### 計算照服員薪資
-1.使用TypeScript + React 撰寫
+1. 使用TypeScript + React 撰寫
+2. style scss
 
 ### 未來需要擴充的項目 (12/03 撰寫)
 1. sweet alert (提示xx 為必填)
