@@ -90,13 +90,13 @@ const Index = ({
               />
             </div>
             <div>
-              <div className="inputTitle">工作月份</div>
+              <div className="inputTitle">工作月</div>
               <Input
               id="month"
               value={inputValue?.month}
               onClick={()=>showKeyboard("month")}
               type="number"
-              placeholder="請輸入工作月份"
+              placeholder="請輸入工作月"
               // 隱藏 平板小鍵盤
               onFocus={(e)=> e.target.blur()}
               />

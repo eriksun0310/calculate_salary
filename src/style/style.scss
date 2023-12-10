@@ -103,6 +103,19 @@
     width: 19% !important;
     background-color: color.$main-color !important;
 }
+@media only screen and (max-width:992px)  {
+    .hg-theme-default{
+        width: 28% !important;
+        background-color: color.$main-color !important;
+    }
+}
+
+@media only screen and (max-width:768px)  {
+    .hg-theme-default{
+        width: 48% !important;
+        background-color: color.$main-color !important;
+    }
+}
 
 .remove{
     transform: scale(0);
