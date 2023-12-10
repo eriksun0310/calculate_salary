@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/calculate_salary/static/css/main.24b11ec4.css",
-    "main.js": "/calculate_salary/static/js/main.84e68606.js",
+    "main.css": "/calculate_salary/static/css/main.ec7054fc.css",
+    "main.js": "/calculate_salary/static/js/main.1367735f.js",
     "static/media/bootstrap-icons.woff?": "/calculate_salary/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/calculate_salary/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "index.html": "/calculate_salary/index.html",
-    "main.24b11ec4.css.map": "/calculate_salary/static/css/main.24b11ec4.css.map",
-    "main.84e68606.js.map": "/calculate_salary/static/js/main.84e68606.js.map"
+    "main.ec7054fc.css.map": "/calculate_salary/static/css/main.ec7054fc.css.map",
+    "main.1367735f.js.map": "/calculate_salary/static/js/main.1367735f.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b11ec4.css",
-    "static/js/main.84e68606.js"
+    "static/css/main.ec7054fc.css",
+    "static/js/main.1367735f.js"
   ]
 }
